@@ -1,6 +1,8 @@
+// curl -k https://localhost:8000/
 const http = require('http');
+const fs = require('fs');
 
-http.createServer((request, response) => {
+http.createServer( (request, response) => {
   request.on('error', (err) => {
     console.error(err);
     response.statusCode = 400;
@@ -14,7 +16,12 @@ http.createServer((request, response) => {
     request.pipe(response);
   } else {
     response.statusCode = 404;
-    response.setHeader('Content-Type', 'text/html; charset=utf8');    
+    response.setHeader('Content-Type', 'text/html; charset=utf8'); 
+    response.pipe('<h1 style="color:Red;>Please make sure you use POST as method and /echo endpoint</h1>');   
     response.end();
   }
 }).listen(8080);
+
+
+
+
