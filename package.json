@@ -1,0 +1,14 @@
+{
+    "name": "request-handler",
+    "version": "1.0.0",
+    "description": "A simple hello world NodeJS application",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "node",
+      "nodejs"
+    ],
+    "license": "MIT"
+  }
