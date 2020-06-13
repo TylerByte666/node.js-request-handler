@@ -1,11 +1,23 @@
 {
-    "name": "request-handler",
-    "version": "1.0.0",
-    "description": "A simple hello world NodeJS application",
-    "main": "app.js",
-    "keywords": [
-      "node",
-      "nodejs"
-    ],
-    "license": "MIT"
-  }
+  "name": "request-handler",
+  "version": "1.0.0",
+  "description": "A simple hello world NodeJS application",
+  "main": "app.js",
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerByte666/node.js-request-handler.git"
+  },
+  "author": "tylerbyte666",
+  "bugs": {
+    "url": "https://github.com/TylerByte666/node.js-request-handler/issues"
+  },
+  "homepage": "https://github.com/TylerByte666/node.js-request-handler#readme"
+}
